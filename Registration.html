@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Admission portal</title>
+    <link rel="stylesheet" href="./Registration.css">
+</head>
+<body>
+  <nav>
+    <a href="./index.html">BACK TO HOMEPAGE</a><nav>
+
+
+
+  
+<form class="reg-form" action="#" method="get" >
+  <!-- form header -->
+  <div class="form-header">
+    <h1>Tobex International high school</h1>
+    <h2>Registration Form 2022/2023 session</h2>
+  </div>
+
+<!-- form-footer -->
+<div class="form-footer"></div>
+
+
+  <!-- form main -->
+  <div class="form-body">
+
+        <label class="label-title"  for="Fname">First name:</label>
+        <input class="form-input" type="text" name="First name" id="Fname" required />
+
+        <label class="label-title"  for="Mname">Middle name:</label>
+        <input class="form-input" type="text" name="Middle name" id="Mname" />
+  
+        <label class="label-title" for="Last name">Last name:</label>
+        <input class="form-input"
+          type="text"
+          name="Last name"
+          id="Lname"
+          placeholder="Surname" required  />
+
+        <label class="label-title" for="Fathname">Father's name:</label>
+        <input class="form-input" type="text" name="Father's name" id="Fathname" required />
+
+        <label class="label-title"  for="Mothname">Mother's name:</label>
+        <input class="form-input" type="text" name="Mother's name" id="Mothname" required />
+  
+        <label class="label-title" for="Email">Email:</label>
+        <input class="form-input" type="email" name="Email" id="Email" required/>
+        
+         <label class="label-title" for="Tel">Telephone no:</label>
+        <input class="form-input" type="tel" name="Telephone" id="Tel" maxlength="11" required/>
+
+         <label class="label-title"  for="DOB"> Date of birth:</label>
+        <input  class="form-input"type="date" name="Date of Birth" id="DOB" maxlength="10" required/> 
+
+        <label class="label-title"  for="stateofOrigin">state of Origin</label>
+        <select id="stateofOrigin" name="State of Origin">
+          <option value="Osun">Osun</option>
+          <option value="Oyo">Oyo</option>
+          <option value="Ondo">Ondo</option>
+          <option value="Lagos">Lagos</option>
+          <option value="Ekiti">Ekiti</option></select>
+
+
+
+  
+        <p>Tell us why you would love to join our school</p>
+        <label class="label-title" for="About applicant" required></label>
+        
+        <textarea name="AboutApplicant" id="Aboutapplicant" cols="60" rows="10" placeholder="Not more than 100 words" maxlength="100" required></textarea>
+      
+
+        <p><i>Applicants are required to create a username and password which would be used to take the examination</i></p>
+        <label class="label-title" for="Username">Username:</label>
+
+        <input class="form-input" type="text" name="Username" id="Username" required/> <br />
+        <br />
+  
+        <label class="label-title" for="Password">Password:</label>
+        <input class="form-input"
+          type="password"
+          name="Password"
+          id="Password"
+          alt="Your Password"
+          placeholder="case sensitive" required> <br><br>
+
+        <label class="label-title" for="RPassword">Re-enter Password:</label>
+        <input class="form-input"
+          type="password"
+          name="Re-enter Password"
+          id="RPassword"
+          alt="Re-enter Password"
+          placeholder="case sensitive" required>
+          
+          <br /> <br>
+          <input type="submit" name="submit Application" id="submit" />
+
+    </div>
+  
+ 
+  </form> 
+  
+    
+  <footer style="text-align:right">
+        <a style="color: whitesmoke;"href="./entrance examination.html">PROCEED TO EXAMINATION</a>
+   </footer>
+     
+</body>
+</html>

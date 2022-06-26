@@ -1,0 +1,43 @@
+body{
+    background-color: gray;
+} 
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+/* HEADER TAG */
+header{
+    text-align: center;
+}
+/* MAIN TAG */
+/* i dont know why element.class isnt working here,i had to use the decendant of a div-class */
+.m1,.m2{
+    margin:20px;
+    overflow: wrap; 
+   
+}
+.m1 img,.m2 img{
+    float: right;
+     height: 300px;
+     width: 600px;
+     margin: 30px;
+}
+.m1 p,.m2 p{
+    margin: 0px;
+}
+/* FOOTER TAG */
+footer{
+    text-align: right;
+}
+
+footer a {
+    color: whitesmoke;
+    text-decoration: none;
+    
+}

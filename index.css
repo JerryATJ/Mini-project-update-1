@@ -1,0 +1,98 @@
+body {
+    background-image: url(./rtx1lcml-e1494336690389.webp);
+    background-size: cover;
+    width: auto;
+}
+
+/* NAVIGATION TAG */
+nav 
+{ 
+    background:whitesmoke;
+    Padding: 10px;
+    margin: 0px;
+    display: block;
+    width: auto;
+}
+.navright{
+    float: right; 
+}
+
+.navleft{
+    color:blue;
+    font-family: serif;
+}
+ /* decendant selector(a is the decendant of nav) symbol is a space between the elements */
+    
+    /* text-decoration removed the line benaath the links */
+    nav a{ margin: 10px;
+        text-decoration: none;
+       padding: 10px;
+       color: black;
+    }
+        
+/* hovering over my navigation button */
+ a:hover {
+    background-color: cornflowerblue;
+    ;
+}
+
+/* HEADER TAG */
+header h2{
+    color:whitesmoke;
+ text-align: left;
+
+}
+/* use of id selector # */
+#tobex {
+    color:yellow;
+    font-size: 80px;
+    text-align: center;
+    margin: 0px;
+}
+#ihs {
+    color: whitesmoke;
+    font-size: 40px;
+    margin: 0px;
+    text-align: center;
+}
+#motto {
+    color: whitesmoke ;
+    text-align: center;
+}
+
+/* SECTION ELEMENT */
+section{
+    text-align: left;
+    width: 400px;
+    height: auto;
+    margin: 70px 20px 200px 10px;
+    padding: 0px;
+    background-color: whitesmoke;  
+    border: 2px solid blue;
+}
+
+section p::first-letter {
+font-size: 30px;
+}
+/* FOOTER ELEMENT */
+footer{
+    color:whitesmoke;
+}
+
+footer a{
+    text-decoration: none;
+    color: azure;
+}
+
+.footer{
+    text-align: left;
+}
+
+.Backindex  {
+    text-align: right;
+}
+
+.BI {
+    color: yellow;
+    font-size: 20px;
+}
